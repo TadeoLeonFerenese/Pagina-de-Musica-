@@ -1,0 +1,120 @@
+.header {
+    color: #fff;
+    background: rgb(10, 10, 10);
+    padding: 50px;
+    margin: 1px;
+    position: sticky;
+    top: 0;
+}
+
+.body {
+    color: grey;
+    background: black;
+    border: darkslategray;
+    flex-wrap: wrap;
+}
+
+.nav {
+    display: flex;
+    background: rgb(250, 165, 7);
+    font-size: 17px;
+    justify-content: space-between;
+}
+
+.nav a {
+    margin: auto 10px;
+}
+
+.section {
+    background: blanchedalmond;
+    font-size: 25px;
+    font-style: inherit;
+    padding: 50px;
+    margin: 1px;
+}
+
+ol {
+    border: 10px solid black;
+    box-shadow: 5px 5px 5px 5px cornsilk;
+    box-sizing: border-box;
+    width: 900px;
+}
+
+li {
+    display: list-item;
+    background-color: rgb(250, 165, 7);
+    margin: 30px;
+    font-weight: 500;
+    width: auto;
+}
+
+
+/* div {
+    display: inline;
+    background-color: white;
+    padding-left: 100px;
+} */
+
+.h2 {
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px 8px rgb(2, 2, 2);
+    display: inline-block;
+    font-size: 25px;
+    padding: 3px 6px 3px 6px;
+}
+
+.span {
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 15px 0 15px;
+    margin-left: 80px;
+}
+
+.span-h2 {
+    color: rgb(250, 165, 7);
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    align-content: center;
+    justify-items: center;
+    font-weight: bolder;
+}
+
+.h1 {
+    border: 10px solid black;
+    box-shadow: 2px 2px 8px 8px cornsilk;
+    display: inline-block;
+    font-size: 35px;
+    padding: 3px 6px 3px 6px;
+}
+
+.span-h1 {
+    color: rgb(250, 165, 7);
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.p {
+    font-size: small;
+}
+
+.img {
+    width: 400px;
+    margin: 10px 0px 10px 390px;
+}
+
+.footer {
+    background: rgb(12, 12, 12);
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 50px;
+    margin: 10px;
+    color: white;
+}
