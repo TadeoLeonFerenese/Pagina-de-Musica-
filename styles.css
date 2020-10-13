@@ -48,6 +48,11 @@ li {
     width: auto;
 }
 
+.li:hover {
+    background: chocolate;
+    transition: background 0.5s;
+}
+
 
 /* div {
     display: inline;
@@ -109,12 +114,51 @@ a {
     margin: 10px 0px 10px 390px;
 }
 
+
+/* .gird-contenedor {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100%;
+}
+
+.aside {
+    position: relative;
+}
+
+.img2 {
+    width: 30px;
+    height: 30px;
+} */
+
 .footer {
     background: rgb(12, 12, 12);
-    font-size: 25px;
+    font-size: 13px;
     font-weight: bolder;
     font-style: italic;
     padding: 50px;
     margin: 10px;
     color: white;
+}
+
+.CD {
+    width: 30px;
+    border-radius: 50%;
+    margin: 0 0 0 47px;
+    animation-name: CD;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(.17, .67, .83, .67);
+}
+
+@keyframes CD {
+    0% {
+        bottom: 0px;
+        top: 0px;
+    }
+    100% {
+        bottom: 5px;
+        top: 20px;
+    }
 }
