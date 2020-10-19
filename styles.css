@@ -1,121 +1,118 @@
-.header {
-    color: #fff;
-    background: rgb(10, 10, 10);
-    padding: 50px;
-    margin: 1px;
-    position: sticky;
-    top: 0;
-}
-
-.body {
-    color: grey;
-    background: black;
-    border: darkslategray;
-    flex-wrap: wrap;
-}
-
-.nav {
-    display: flex;
-    background: rgb(250, 165, 7);
-    font-size: 17px;
-    justify-content: space-between;
-}
-
-.nav a {
-    margin: auto 10px;
-}
-
-.section {
-    background: blanchedalmond;
-    font-size: 25px;
-    font-style: inherit;
-    padding: 50px;
-    margin: 1px;
-}
-
-ol {
-    border: 10px solid black;
-    box-shadow: 5px 5px 5px 5px cornsilk;
-    box-sizing: border-box;
-    width: 900px;
-}
-
-li {
-    display: list-item;
-    background-color: rgb(250, 165, 7);
-    margin: 30px;
-    font-weight: 500;
-    width: auto;
-}
-
-.li:hover {
-    background: chocolate;
-    transition: background 0.5s;
-}
-
-
-/* div {
+        .header {
+            color: #fff;
+            background: rgb(10, 10, 10);
+            padding: 50px;
+            margin: 1px;
+            position: sticky;
+            top: 0;
+        }
+        
+        .body {
+            color: grey;
+            background: black;
+            border: darkslategray;
+            flex-wrap: wrap;
+        }
+        
+        .nav {
+            display: flex;
+            background: rgb(250, 165, 7);
+            font-size: 17px;
+            justify-content: space-between;
+        }
+        
+        .nav a {
+            margin: auto 10px;
+        }
+        
+        .section {
+            background: blanchedalmond;
+            font-size: 25px;
+            font-style: inherit;
+            padding: 50px;
+            margin: 1px;
+        }
+        
+        ol {
+            border: 10px solid black;
+            box-shadow: 5px 5px 5px 5px cornsilk;
+            box-sizing: border-box;
+            width: 900px;
+        }
+        
+        li {
+            display: list-item;
+            background-color: rgb(250, 165, 7);
+            margin: 30px;
+            font-weight: 500;
+            width: auto;
+        }
+        
+        .li:hover {
+            background: chocolate;
+            transition: background 0.5s;
+        }
+        /* div {
     display: inline;
     background-color: white;
     padding-left: 100px;
 } */
-
-.h2 {
-    border: 1px solid black;
-    box-shadow: 2px 2px 8px 8px rgb(2, 2, 2);
-    display: inline-block;
-    font-size: 25px;
-    padding: 3px 6px 3px 6px;
-}
-
-.span {
-    background-color: whitesmoke;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 0 15px 0 15px;
-    margin-left: 80px;
-}
-
-.span-h2 {
-    color: rgb(250, 165, 7);
-    font-weight: 700;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-}
-
-a {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    align-content: center;
-    justify-items: center;
-    font-weight: bolder;
-}
-
-.h1 {
-    border: 10px solid black;
-    box-shadow: 2px 2px 8px 8px cornsilk;
-    display: inline-block;
-    font-size: 35px;
-    padding: 3px 6px 3px 6px;
-}
-
-.span-h1 {
-    color: rgb(250, 165, 7);
-    font-weight: 700;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
-}
-
-.p {
-    font-size: small;
-}
-
-.img {
-    width: 400px;
-    margin: 10px 0px 10px 390px;
-}
-
-
-/* .gird-contenedor {
+        
+        .h2 {
+            border: 1px solid black;
+            box-shadow: 2px 2px 8px 8px rgb(2, 2, 2);
+            display: inline-block;
+            font-size: 25px;
+            padding: 3px 6px 3px 6px;
+        }
+        
+        .span {
+            background-color: whitesmoke;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 0 15px 0 15px;
+            margin-left: 80px;
+        }
+        
+        .span-h2 {
+            color: rgb(250, 165, 7);
+            font-weight: 700;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40px;
+        }
+        
+        a {
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+            align-content: center;
+            justify-items: center;
+            font-weight: bolder;
+        }
+        
+        .h1 {
+            border: 10px solid black;
+            box-shadow: 2px 2px 8px 8px cornsilk;
+            display: inline-block;
+            font-size: 35px;
+            padding: 3px 6px 3px 6px;
+        }
+        
+        .span-h1 {
+            color: rgb(250, 165, 7);
+            font-weight: 700;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 50px;
+        }
+        
+        .p {
+            font-size: small;
+        }
+        
+        .img {
+            width: 400px;
+            margin: 10px 0px 10px 390px;
+            grid-area: primera;
+        }
+        /* .gird-contenedor {
     display: grid;
     grid-template-columns: 200px 200px;
     grid-template-rows: 100%;
@@ -129,36 +126,51 @@ a {
     width: 30px;
     height: 30px;
 } */
-
-.footer {
-    background: rgb(12, 12, 12);
-    font-size: 13px;
-    font-weight: bolder;
-    font-style: italic;
-    padding: 50px;
-    margin: 10px;
-    color: white;
-}
-
-.CD {
-    width: 30px;
-    border-radius: 50%;
-    margin: 0 0 0 47px;
-    animation-name: CD;
-    animation-delay: 1s;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    animation-timing-function: cubic-bezier(.17, .67, .83, .67);
-}
-
-@keyframes CD {
+        
+        .footer {
+            display: grid;
+            background: rgb(12, 12, 12);
+            font-size: 13px;
+            font-weight: bolder;
+            font-style: italic;
+            padding: 50px;
+            color: white;
+            grid-template-columns: [primera] 50% [segunda] 50%;
+            grid-template-rows: 100%;
+            justify-items: center;
+            align-items: center;
+        }
+        
+        .CD {
+            width: 30px;
+            border-radius: 50%;
+            margin: 0 0 0 463px;
+            animation-name: CD;
+            animation-delay: 0.5s;
+            animation-duration: 0.8s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-timing-function: cubic-bezier(0, -0.19, .29, .99);
+            grid-area: auto;
+        }
+        /* @keyframes CD {
     0% {
         bottom: 0px;
         top: 0px;
     }
     100% {
-        bottom: 5px;
-        top: 20px;
+        bottom: 30px;
+        top: 30px;
     }
-}
+} */
+        
+        @keyframes CD {
+            0% {
+                bottom: 0;
+                left: calc(50% - 75px);
+            }
+            100% {
+                bottom: 100px;
+                left: calc(50% - 75px);
+            }
+        }
